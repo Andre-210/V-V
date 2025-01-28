@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -55,7 +57,7 @@ public class AvlTree {
                     return false;  // unbalanced!
                 int maxh = (lh > rh) ? lh : rh;
                 if (height != 1 + maxh)
-                    return false; // wrong value in height field!
+                    return false;// wrong value in height field!
             }
         }
 
